@@ -3,6 +3,6 @@
   "version": 41,
   "uuid": "clipboard-history@MadhiasM.dev",
   "description": "Gnome Clipboard History is a clipboard manager GNOME extension that saves items you've copied into an easily accessible, searchable history panel.",
-  "url": "https://github.com/MadhiasM;/gnome-clipboard-history",
+  "url": "https://github.com/MadhiasM/gnome-clipboard-history",
   "shell-version": ["40", "41", "42", "43", "44"]
 }
