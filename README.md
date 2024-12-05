@@ -49,7 +49,7 @@ A note on versioning:
 
 ```shell
 cd ~/.local/share/gnome-shell/extensions/ && \
-  git clone https://github.com/MadhiasM/gnome-clipboard-history.git clipboard-history@MadhiasM.dev && \
+  git clone -b pre-45 https://github.com/MadhiasM/gnome-clipboard-history.git clipboard-history@MadhiasM.dev && \
   cd clipboard-history@MadhiasM.dev && \
   make
 ```
