@@ -61,5 +61,5 @@ cd ~/.local/share/gnome-shell/extensions/ && \
 ### Install
 
 ```shell
-gnome-extensions enable clipboard-history@alexsaveau.dev
+gnome-extensions enable clipboard-history@MadhiasM.dev
 ```
