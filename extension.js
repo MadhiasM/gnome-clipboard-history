@@ -291,6 +291,16 @@ class ClipboardIndicator extends PanelMenu.Button {
     ).width;
 
     this.menu.actor.width = screen_width * (WINDOW_WIDTH_PERCENTAGE / 100);
+
+    const actor = this.menu.actor;
+    let [x, y] = global.get_pointer();
+    if (x + actor.width > global.stage.width) {
+      x -= actor.width;
+    }
+    if (y + actor.height > global.stage.height) {
+      y -= actor.height;
+    }
+    this.menu.actor.set_position(x, y);
   }
 
   _handleGlobalKeyEvent(event) {

@@ -10,9 +10,14 @@ The extension is a rewrite of
 new features, and
 [bug fixes](https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator/pull/338).
 
+As opposed to the original repo, the menu is positioned at the mouse cursor's location.
+Fork from [Gnome Clipboard History](https://github.com/SUPERCILEX/gnome-clipboard-history)
+
 ## Download
 
 [<img src="https://raw.githubusercontent.com/andyholmes/gnome-shell-extensions-badge/eb9af9a1c6f04eb060cb01de6aeb5c84232cd8c0/get-it-on-ego.svg?sanitize=true" alt="Get it on GNOME Extensions" height="100" align="middle">](https://extensions.gnome.org/extension/4839/clipboard-history/)
+Not yet supported for fork
+
 
 ## Tips
 
