@@ -200,7 +200,7 @@ function _consumeStream(stream, state, callback) {
         };
 
         addEntry('Your clipboard data has been corrupted and was moved to:');
-        addEntry('~/.cache/clipboard-history@alexsaveau.dev/corrupted.log');
+        addEntry('~/.cache/clipboard-history@MadhiasM.dev/corrupted.log');
         addEntry('Please file a bug report at:');
         addEntry(
           'https://github.com/SUPERCILEX/gnome-clipboard-history/issues/new?assignees=&labels=bug&template=1-bug.md',

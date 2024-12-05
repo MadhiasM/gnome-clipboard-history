@@ -15,7 +15,7 @@ A clear and concise description of what the bug is.
 <!--
 Run this command to get debugging info and paste it below:
 ```sh
-gnome-shell --version; echo -n "GCH "; gnome-extensions show clipboard-history@alexsaveau.dev | grep Version; gsettings --schemadir ~/.local/share/gnome-shell/extensions/clipboard-history@alexsaveau.dev/schemas list-recursively org.gnome.shell.extensions.clipboard-history
+gnome-shell --version; echo -n "GCH "; gnome-extensions show clipboard-history@MadhiasM.dev | grep Version; gsettings --schemadir ~/.local/share/gnome-shell/extensions/clipboard-history@MadhiasM.dev/schemas list-recursively org.gnome.shell.extensions.clipboard-history
 ```
 -->
 
@@ -37,7 +37,7 @@ journalctl -n 1000000 | grep -B 10 -A 10 'clipboard-history'
 
 If the issue could be database corruption, run this command to encrypt your clipboard history:
 ```sh
-curl -L alexsaveau.dev/gpg -o supercilex.key && gpg --output database.enc --encrypt --recipient-file supercilex.key ~/.cache/clipboard-history@alexsaveau.dev/database.log && rm supercilex.key
+curl -L alexsaveau.dev/gpg -o supercilex.key && gpg --output database.enc --encrypt --recipient-file supercilex.key ~/.cache/clipboard-history@MadhiasM.dev/database.log && rm supercilex.key
 ```
 Upload database.enc to send me your encrypted clipboard history.
 -->
