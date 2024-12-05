@@ -50,8 +50,8 @@ A note on versioning:
 Requires msgfmt from gettext to be installed. If not, execute:
 
 ```shell
-apt install update
-apt install gettext
+sudo apt update
+sudo apt install gettext
 ```
 
 ```shell
