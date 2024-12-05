@@ -48,11 +48,11 @@ A note on versioning:
 ### Build
 
 Requires msgfmt from gettext to be installed. If not, execute:
-
 ```shell
 sudo apt update
 sudo apt install gettext
 ```
+
 
 ```shell
 cd ~/.local/share/gnome-shell/extensions/ && \
@@ -63,6 +63,7 @@ cd ~/.local/share/gnome-shell/extensions/ && \
 
 ### Restart GNOME
 
+Only works on X11, on Wayland you need to restart manually:
 <kbd>Alt</kbd> + <kbd>F2</kbd> then type `r`.
 
 ### Install
