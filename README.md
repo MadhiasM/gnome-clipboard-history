@@ -47,6 +47,13 @@ A note on versioning:
 
 ### Build
 
+Requires msgfmt from gettext to be installed. If not, execute:
+
+```shell
+apt install update
+apt install gettext
+```
+
 ```shell
 cd ~/.local/share/gnome-shell/extensions/ && \
   git clone -b pre-45 https://github.com/MadhiasM/gnome-clipboard-history.git clipboard-history@MadhiasM.dev && \
