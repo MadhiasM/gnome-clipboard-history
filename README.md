@@ -64,6 +64,7 @@ cd ~/.local/share/gnome-shell/extensions/ && \
 ### Restart GNOME
 
 Only works on X11, on Wayland you need to restart manually:
+
 <kbd>Alt</kbd> + <kbd>F2</kbd> then type `r`.
 
 ### Install
