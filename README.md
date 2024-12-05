@@ -49,8 +49,8 @@ A note on versioning:
 
 ```shell
 cd ~/.local/share/gnome-shell/extensions/ && \
-  git clone https://github.com/SUPERCILEX/gnome-clipboard-history.git clipboard-history@alexsaveau.dev && \
-  cd clipboard-history@alexsaveau.dev && \
+  git clone https://github.com/MadhiasM/gnome-clipboard-history.git clipboard-history@MadhiasM.dev && \
+  cd clipboard-history@MadhiasM.dev && \
   make
 ```
 
